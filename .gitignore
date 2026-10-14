@@ -1,0 +1,16 @@
+# Python environments and generated files
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+
+# Local secrets
+.env
+.env.*

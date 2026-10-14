@@ -2,11 +2,11 @@
 
 Personal Python coding and object-oriented design practice.
 
-## Design Persistent Key-Value Store
+## OpenAI Interview Practice — Design Persistent Key-Value Store
 
-- [Original question](OOD/original_question.md): the supplied problem statement, API, constraints, and examples.
-- [My answer](OOD/persistent_kv_store.py): my latest independently rewritten implementation, exported unchanged from the notebook. Includes the supplied example runners.
-- [Practice notebook](OOD/persistent_kv_store_practice.ipynb): the original question, guided exercises, earlier attempts, and my rewrite.
+- [Original question](OpenAI/OOD/original_question.md): the supplied problem statement, API, constraints, and examples.
+- [My answer](OpenAI/OOD/persistent_kv_store.py): my latest independently rewritten implementation, exported unchanged from the notebook. Includes the supplied example runners.
+- [Practice notebook](OpenAI/OOD/persistent_kv_store_practice.ipynb): the original question, guided exercises, earlier attempts, and my rewrite.
 
 The store saves string keys and values in a custom binary snapshot using UTF-8 byte lengths and restores them through the provided Medium abstraction.
 
@@ -15,7 +15,7 @@ The store saves string keys and values in a custom binary snapshot using UTF-8 b
 Use Python 3.12 or newer. The standalone answer uses only the standard library:
 
 ```sh
-python3 OOD/persistent_kv_store.py
+python3 OpenAI/OOD/persistent_kv_store.py
 ```
 
 The bundled example runners print actual results and expected-value comments; they are not assertion-based tests.
